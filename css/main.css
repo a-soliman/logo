@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: impact;
+}
+section {
+	margin-top: 10%;
+}
+.ahmed {
+	margin-right: 3%;
+}
+
+.ahmed h1 {
+	font-size: 110px;
+	margin-left: 10px;
+}
+.soliman {
+	margin-top: -24px;
+	width: 40%;
+	height: 200px;
+	color: white;
+	background-color: black;
+	display: inline-block;
+	border-right: 4px solid orange;
+	border-bottom: 4px solid orange;
+}
+.soliman h2 {
+	font-size: 72px;
+	margin-left: 14%;
+	margin-top: -10px; 
+	letter-spacing: 7px;
+}
+.soliman h2 span {
+	color: orange;
+}
+.soliman p {
+	font-size: 10px;
+	letter-spacing: 4.5px;
+	font-weight: 100;
+	margin-left: 31%;
+	margin-top: -15px;
+}
+.soliman p /*span */{
+	color: orange;
+}
