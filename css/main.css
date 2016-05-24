@@ -17,7 +17,7 @@ section {
 }
 .soliman {
 	margin-top: -24px;
-	width: 40%;
+	width: 500px;
 	height: 200px;
 	color: white;
 	background-color: black;
@@ -41,6 +41,44 @@ section {
 	margin-left: 31%;
 	margin-top: -15px;
 }
-.soliman p /*span */{
+.soliman p {
 	color: orange;
+}
+@media (max-width: 510px) {
+	.soliman {
+		width: 90%;
+		height: 150px;
+	}
+	.soliman p {
+		margin-left: 34%;
+	}
+}
+@media (max-width: 400px) {
+	.soliman p {
+		margin-left: 39%;
+}
+@media (max-width: 395px) {
+	.ahmed h1 {
+		font-size: 98px;
+	}
+	.soliman h2 {
+		font-size: 60px;
+	}
+	.soliman p {
+		margin-left: 29%;
+		margin-top: -12px;
+	}
+}
+@media (max-width: 330px) {
+	.ahmed h1 {
+		font-size: 88px;
+	}
+	.soliman h2 {
+		font-size: 50px;
+	}
+	.soliman p {
+		letter-spacing: 1.5px;
+		margin-left: 39%;
+
+	}
 }
